@@ -49,6 +49,7 @@ gem 'actionpack-page_caching'
 gem 'actionpack-action_caching'
 # There is a bug...
 gem 'rails-observers', git: 'https://github.com/rails/rails-observers.git'
+gem 'dalli'
 
 group :doc do
   gem 'sdoc', '0.3.20', require: false
