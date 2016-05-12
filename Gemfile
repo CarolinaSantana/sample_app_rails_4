@@ -47,6 +47,8 @@ gem 'turbolinks', '1.1.1'
 gem 'jbuilder', '1.0.2'
 gem 'actionpack-page_caching'
 gem 'actionpack-action_caching'
+# There is a bug...
+gem 'rails-observers', git: 'https://github.com/rails/rails-observers.git'
 
 group :doc do
   gem 'sdoc', '0.3.20', require: false
